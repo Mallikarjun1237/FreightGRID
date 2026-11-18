@@ -90,11 +90,11 @@ export default function HighwayCorridorSection() {
         </div>
       </div>
 
-      {/* Horizontal World Track (5600px wide for clear travel perception) */}
+      {/* Horizontal World Track (Reduced first 3 distances to 80%, kept last distance intact) */}
       <div
         ref={trackRef}
         className="relative h-full flex items-center will-change-transform"
-        style={{ width: "5600px" }}
+        style={{ width: "4650px" }}
       >
         {/* Background Grid */}
         <div className="absolute inset-0 opacity-10 pointer-events-none blueprint-grid" />
@@ -111,12 +111,12 @@ export default function HighwayCorridorSection() {
               style={{
                 left:
                   loadTonnes === 0
-                    ? "240px"
+                    ? "200px"
                     : loadTonnes === 2.0
-                    ? "1450px"
+                    ? "1180px"
                     : loadTonnes === 3.0
-                    ? "2700px"
-                    : "3950px",
+                    ? "2140px"
+                    : "3150px",
               }}
             >
               <div className="bg-[#1F2126] border-2 border-[#E89228] rounded-lg px-3 py-1 shadow-xl flex items-center gap-2">
@@ -148,16 +148,16 @@ export default function HighwayCorridorSection() {
           <div className="absolute left-12 -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
             KM 00 // ORIGIN
           </div>
-          <div className="absolute left-[1350px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
+          <div className="absolute left-[1100px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
             KM 08.2 // SRINIVASPUR
           </div>
-          <div className="absolute left-[2600px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
+          <div className="absolute left-[2060px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
             KM 19.4 // MULBAGAL
           </div>
-          <div className="absolute left-[3850px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
+          <div className="absolute left-[3020px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
             KM 44.1 // HOSKOTE
           </div>
-          <div className="absolute left-[4750px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
+          <div className="absolute left-[4020px] -top-6 text-[10px] font-mono text-[#808593] bg-[#111214] px-2 py-0.5 rounded border border-[#2B2E36]">
             KM 68.4 // KR MARKET
           </div>
         </div>
@@ -186,10 +186,10 @@ export default function HighwayCorridorSection() {
           <div className="absolute left-1/2 -bottom-3 w-0.5 bg-[#E89228] -translate-x-1/2 h-3" />
         </div>
 
-        {/* 2. STOP 1 (ABOVE ROAD): Anjanappa (Tomatoes) - Compact & Clean Clearance */}
+        {/* 2. STOP 1 (ABOVE ROAD): Anjanappa (Tomatoes) - Positioned at 1050px (80% distance) */}
         <div
           style={{ bottom: "calc(50% + 68px)" }}
-          className="absolute left-[1300px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#E89228]"
+          className="absolute left-[1050px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#E89228]"
         >
           <div className="flex items-center justify-between text-[11px] font-mono pb-1 border-b border-[#D8D2C2]">
             <span className="text-[#E89228] font-black">PICKUP 01 // LOAD ADDED</span>
@@ -220,10 +220,10 @@ export default function HighwayCorridorSection() {
           <div className="absolute left-1/2 -bottom-3 w-0.5 bg-[#E89228] -translate-x-1/2 h-3" />
         </div>
 
-        {/* 3. STOP 2 (BELOW ROAD): Gowramma Cooperative - Positioned with Strict Clearance */}
+        {/* 3. STOP 2 (BELOW ROAD): Gowramma Cooperative - Positioned at 2010px (80% distance) */}
         <div
           style={{ top: "calc(50% + 68px)" }}
-          className="absolute left-[2500px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#16A34A]"
+          className="absolute left-[2010px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#16A34A]"
         >
           {/* Connector up to Road */}
           <div className="absolute left-1/2 -top-3 w-0.5 bg-[#16A34A] -translate-x-1/2 h-3" />
@@ -255,10 +255,10 @@ export default function HighwayCorridorSection() {
           </div>
         </div>
 
-        {/* 4. STOP 3 (ABOVE ROAD): Prashanth Agro Supplies - Clean Clearance */}
+        {/* 4. STOP 3 (ABOVE ROAD): Prashanth Agro Supplies - Positioned at 2970px (80% distance) */}
         <div
           style={{ bottom: "calc(50% + 68px)" }}
-          className="absolute left-[3700px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#2563EB]"
+          className="absolute left-[2970px] z-20 w-84 sm:w-88 bg-[#FAF8F2] text-[#18191B] border-2 border-[#18191B] p-4 rounded-xl shadow-[4px_4px_0px_0px_#2563EB]"
         >
           <div className="flex items-center justify-between text-[11px] font-mono pb-1 border-b border-[#D8D2C2]">
             <span className="text-[#2563EB] font-black">PICKUP 03 // LOAD ADDED</span>
@@ -289,9 +289,9 @@ export default function HighwayCorridorSection() {
           <div className="absolute left-1/2 -bottom-3 w-0.5 bg-[#2563EB] -translate-x-1/2 h-3" />
         </div>
 
-        {/* 5. DESTINATION TERMINAL: KR Market Yard (Centered at End of Road) */}
+        {/* 5. DESTINATION TERMINAL: KR Market Yard (Positioned at 3970px: exact 1000px unchanged distance from Stop 3!) */}
         <div
-          className="absolute left-[4700px] top-1/2 -translate-y-1/2 z-20 w-96 sm:w-[440px] bg-[#1F2126] border-2 border-[#16A34A] p-5 rounded-2xl shadow-2xl"
+          className="absolute left-[3970px] top-1/2 -translate-y-1/2 z-20 w-96 sm:w-[440px] bg-[#1F2126] border-2 border-[#16A34A] p-5 rounded-2xl shadow-2xl"
         >
           <div className="flex items-center justify-between text-xs font-mono mb-2 pb-1.5 border-b border-[#3A3D44]">
             <span className="text-[#16A34A] font-extrabold flex items-center gap-1.5">
@@ -325,7 +325,7 @@ export default function HighwayCorridorSection() {
         </div>
 
         {/* Generous Breathing Room at Far Right */}
-        <div className="absolute left-[5300px] w-48 h-10" />
+        <div className="absolute left-[4500px] w-40 h-10" />
       </div>
 
       {/* Bottom Route Indicator Bar - Compact to preserve vertical room */}
