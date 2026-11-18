@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-paper: #F6F3EA;
+  --bg-surface: #FAF8F2;
+  --bg-muted: #EBE6D8;
+  --ink-primary: #18191B;
+  --ink-secondary: #5A5E69;
+  --ink-border: #D8D2C2;
+  --accent-marigold: #E89228;
+  --stamp-red: #DC2626;
+  --stamp-green: #16A34A;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+/* Prevent accidental horizontal overflow globally */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  background-color: var(--bg-paper);
+  color: var(--ink-primary);
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Lenis Recommended CSS */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Millimeter Graph Paper Grid Overlay */
+.blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(24, 25, 27, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 25, 27, 0.04) 1px, transparent 1px),
+    linear-gradient(to right, rgba(24, 25, 27, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 25, 27, 0.08) 1px, transparent 1px);
+  background-size: 16px 16px, 16px 16px, 80px 80px, 80px 80px;
+}
+
+/* Dense Dot Grid */
+.dot-grid {
+  background-image: radial-gradient(rgba(24, 25, 27, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Rubber Stamp Styling */
+.rubber-stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-style: dashed;
+  font-family: var(--font-mono), monospace;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  user-select: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.stamp-red {
+  color: #DC2626;
+  border-color: #DC2626;
+  background-color: rgba(220, 38, 38, 0.06);
+  transform: rotate(-2.5deg);
+}
+
+.stamp-green {
+  color: #16A34A;
+  border-color: #16A34A;
+  background-color: rgba(22, 163, 74, 0.06);
+  transform: rotate(2deg);
+}
+
+.stamp-amber {
+  color: #CE7815;
+  border-color: #CE7815;
+  background-color: rgba(232, 146, 40, 0.08);
+  transform: rotate(-1.5deg);
+}
+
+/* Carbon Copy Receipt Paper Styling */
+.bilti-paper {
+  background-color: #FAF5E8;
+  border: 1px solid #D8D1BD;
+  box-shadow: 0 12px 36px -8px rgba(24, 25, 27, 0.12), 0 2px 8px rgba(24, 25, 27, 0.04);
+  position: relative;
+}
+
+.perforated-edge {
+  background-image: radial-gradient(circle, transparent 6px, #FAF5E8 6px);
+  background-size: 16px 16px;
+  background-position: top center;
+}
+
+/* Hide scrollbar cleanly when needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
