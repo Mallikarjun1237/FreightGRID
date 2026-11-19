@@ -76,7 +76,7 @@ export default function LorryBiltiSection() {
               <tbody className="divide-y divide-[#D8D1BD] text-[#18191B]">
                 <tr>
                   <td className="py-4 px-2 font-semibold">
-                    Anjanappa (Srinivaspur)
+                    Ramesh (Srinivaspur)
                     <span className="block text-[11px] text-[#5A5E69]">85 Crates Ripe Tomatoes</span>
                   </td>
                   <td className="py-4 px-2">2.0 T</td>
@@ -88,7 +88,7 @@ export default function LorryBiltiSection() {
                 </tr>
                 <tr>
                   <td className="py-4 px-2 font-semibold">
-                    Gowramma (Mulbagal)
+                    Suresh (Mulbagal)
                     <span className="block text-[11px] text-[#5A5E69]">40 Gunny Bags Cabbages</span>
                   </td>
                   <td className="py-4 px-2">1.0 T</td>
@@ -100,7 +100,7 @@ export default function LorryBiltiSection() {
                 </tr>
                 <tr>
                   <td className="py-4 px-2 font-semibold">
-                    Prashanth Traders (Hoskote)
+                    Ram (Hoskote)
                     <span className="block text-[11px] text-[#5A5E69]">18 Cartons Hardware &amp; Seeds</span>
                   </td>
                   <td className="py-4 px-2">0.8 T</td>

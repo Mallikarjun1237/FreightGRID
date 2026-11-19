@@ -10,7 +10,7 @@ export default function VoiceAssistantSection() {
   const voiceDemos = {
     kannada: {
       langLabel: "Kannada (ಕನ್ನಡ)",
-      speaker: "Anjanappa (Tomato Farmer · Srinivaspur)",
+      speaker: "Ramesh (Tomato Farmer · Srinivaspur)",
       audioText:
         "ನನ್ನ ಹೊಲದಲ್ಲಿ 2 ಟನ್ ಟೊಮೇಟೊ ಇದೆ, ಕೋಲಾರದಿಂದ ಬೆಂಗಳೂರು ಕೆ.ಆರ್ ಮಾರ್ಕೆಟ್‌ಗೆ ನಾಳೆ ಬೆಳಗ್ಗೆ 5 ಗಂಟೆಗೆ ಕಳುಹಿಸಬೇಕು. ಬಾಡಿಗೆ ಎಷ್ಟು ಆಗುತ್ತೆ?",
       translation:
@@ -27,7 +27,7 @@ export default function VoiceAssistantSection() {
     },
     hindi: {
       langLabel: "Hindi (हिंदी)",
-      speaker: "Rameshwar (Vegetable Producer · Mulbagal)",
+      speaker: "Suresh (Vegetable Producer · Mulbagal)",
       audioText:
         "हमारे पास मुलबागल में 1 टन पत्तागोभी और बीन्स हैं, कल सुबह 6 बजे तक बेंगलुरु मंडी पहुँचाना है। क्या कोई साझा गाड़ी मिलेगी?",
       translation:
@@ -44,7 +44,7 @@ export default function VoiceAssistantSection() {
     },
     english: {
       langLabel: "English",
-      speaker: "Prashanth (Rural Hardware Store Owner · Hoskote)",
+      speaker: "Ram (Rural Agro-Store Owner · Hoskote)",
       audioText:
         "Need 18 cartons of agricultural sprayers and hybrid seeds picked up from Hoskote depot and delivered to Kalasipalyam yard.",
       translation:

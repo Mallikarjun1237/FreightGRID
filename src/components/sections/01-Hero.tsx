@@ -247,15 +247,15 @@ export default function HeroSection() {
             <div className="border border-[#D8D2C2] rounded-lg p-3 bg-[#FAF8F2] space-y-1.5 text-[11px]">
               <div className="flex items-center gap-2 text-[#18191B]">
                 <MapPin className="w-3.5 h-3.5 text-[#E89228]" />
-                <span>KM 08: Srinivaspur North (2.0T Tomatoes)</span>
+                <span>KM 08: Ramesh (2.0T Tomatoes)</span>
               </div>
               <div className="flex items-center gap-2 text-[#18191B]">
                 <MapPin className="w-3.5 h-3.5 text-[#16A34A]" />
-                <span>KM 19: Mulbagal Cross (1.0T Cabbages)</span>
+                <span>KM 19: Suresh (1.0T Cabbages)</span>
               </div>
               <div className="flex items-center gap-2 text-[#18191B]">
                 <MapPin className="w-3.5 h-3.5 text-[#2563EB]" />
-                <span>KM 44: Hoskote Industrial Gate (0.8T Supplies)</span>
+                <span>KM 44: Ram (0.8T Supplies)</span>
               </div>
             </div>
           </div>

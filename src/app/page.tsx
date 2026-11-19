@@ -3,6 +3,7 @@
 import TopBar from "@/components/navigation/TopBar";
 import HeroSection from "@/components/sections/01-Hero";
 import DeadheadVoidSection from "@/components/sections/02-DeadheadVoid";
+import HowItWorksSolution from "@/components/sections/HowItWorksSolution";
 import InteractiveRoutePlayground from "@/components/sections/InteractiveRoutePlayground";
 import VoiceAssistantSection from "@/components/sections/VoiceAssistantSection";
 import HighwayCorridorSection from "@/components/sections/03-HighwayCorridor";
@@ -20,8 +21,11 @@ export default function Home() {
       {/* Section 01: Hero with Scrubbing Odometer traveling completely to left edge */}
       <HeroSection />
 
-      {/* Section 02: Ground Reality & Why Uber for Trucks Fails */}
+      {/* Section 02: Ground Reality & The Problem (Half-Empty Trucks, High Freight) */}
       <DeadheadVoidSection />
+
+      {/* Plain-English 4-Step Solution: Exactly How FREIGHTGRID Solves It */}
+      <HowItWorksSolution />
 
       {/* Interactive Node-Linking Simulation Game */}
       <InteractiveRoutePlayground />
@@ -29,7 +33,7 @@ export default function Home() {
       {/* Voice Assistant: Multilingual Voice Dispatch Interface */}
       <VoiceAssistantSection />
 
-      {/* Section 03: The Pinned Horizontal Highway (Broader Road + Wider Spacing) */}
+      {/* Section 03: The Pinned Horizontal Highway (Broader Road + Clear Spacing) */}
       <HighwayCorridorSection />
 
       {/* Section 04: The Two-Stage QUBO Optimization & Visual Interactive Route Map */}

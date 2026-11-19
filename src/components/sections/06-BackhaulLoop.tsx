@@ -79,11 +79,11 @@ export default function BackhaulLoopSection() {
               </div>
 
               <div className="flex items-center gap-3 text-lg font-bold font-sans text-[#F6F3EA] mb-2">
-                <span>Yeshwanthpur Agro Depot</span>
+                <span>Yeshwanthpur (Sham)</span>
                 <CornerDownLeft className="w-5 h-5 text-[#16A34A]" />
                 <span>Kolar Co-op Union</span>
               </div>
-              <p className="text-xs font-mono text-[#A6ABBA]">MATCH IDENTIFIED: {backhaul.id}</p>
+              <p className="text-xs font-mono text-[#A6ABBA]">MATCH IDENTIFIED: {backhaul.id} · CLIENT: SHAM</p>
 
               <div className="mt-6 bg-[#111214] border border-[#3A3D44] p-4 rounded-xl space-y-2 text-xs font-mono">
                 <div className="flex justify-between">

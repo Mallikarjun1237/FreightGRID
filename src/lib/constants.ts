@@ -33,7 +33,7 @@ export const CORRIDOR_DATA = {
   shipments: [
     {
       id: "FR-101",
-      shipper: "Anjanappa & Sons",
+      shipper: "Ramesh",
       role: "Tomato Grower · Srinivaspur North",
       cargo: "85 Plastic Crates (Grade-A Ripe Tomatoes)",
       weightTonnes: 2.0,
@@ -49,8 +49,8 @@ export const CORRIDOR_DATA = {
     },
     {
       id: "FR-102",
-      shipper: "Gowramma Cooperative",
-      role: "Women Farmers Producer Group · Mulbagal",
+      shipper: "Suresh",
+      role: "Farmer Producer · Mulbagal",
       cargo: "40 Gunny Sacks (Fresh Cabbages & Green Beans)",
       weightTonnes: 1.0,
       location: "KM 19 · Mulbagal Cross",
@@ -65,7 +65,7 @@ export const CORRIDOR_DATA = {
     },
     {
       id: "FR-103",
-      shipper: "Prashanth Agro Supplies",
+      shipper: "Ram",
       role: "Rural Agro-Store Owner · Hoskote",
       cargo: "18 Corrugated Cartons (Sprayers & Certified Seeds)",
       weightTonnes: 0.8,
@@ -82,6 +82,8 @@ export const CORRIDOR_DATA = {
   ] as ShipmentNode[],
   backhaul: {
     id: "BH-884",
+    client: "Sham",
+    role: "Agricultural Input Distributor",
     source: "Yeshwanthpur Agro Depot (Bengaluru)",
     destination: "Kolar Agricultural Co-op Union",
     cargo: "IFFCO Urea & NPK Fertilizer Sacks",

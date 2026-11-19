@@ -103,19 +103,19 @@ export default function QuboEngineSection() {
               {/* Node 1: Srinivaspur */}
               <circle cx="100" cy="80" r="14" fill="#FAF8F2" stroke="#18191B" strokeWidth="4" />
               <text x="100" y="50" textAnchor="middle" fill="#FAF8F2" fontSize="12" fontFamily="monospace" fontWeight="bold">
-                KM 08 · Srinivaspur (2.0T)
+                KM 08 · Ramesh (2.0T)
               </text>
 
               {/* Node 2: Mulbagal */}
               <circle cx="280" cy="240" r="14" fill="#FAF8F2" stroke="#18191B" strokeWidth="4" />
               <text x="280" y="280" textAnchor="middle" fill="#FAF8F2" fontSize="12" fontFamily="monospace" fontWeight="bold">
-                KM 19 · Mulbagal (1.0T)
+                KM 19 · Suresh (1.0T)
               </text>
 
               {/* Node 3: Hoskote */}
               <circle cx="500" cy="110" r="14" fill="#FAF8F2" stroke="#18191B" strokeWidth="4" />
               <text x="500" y="80" textAnchor="middle" fill="#FAF8F2" fontSize="12" fontFamily="monospace" fontWeight="bold">
-                KM 44 · Hoskote (0.8T)
+                KM 44 · Ram (0.8T)
               </text>
 
               {/* Node 4: KR Market Yard */}
