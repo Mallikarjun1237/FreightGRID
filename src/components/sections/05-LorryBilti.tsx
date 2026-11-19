@@ -55,7 +55,7 @@ export default function LorryBiltiSection() {
                 CARRIER &amp; REGION
               </span>
               <p className="text-base font-bold font-sans text-[#18191B]">
-                Manjunath Transport Co-op (Kolar)
+                krishna Transport Co-op (Kolar)
               </p>
               <p className="text-xs font-mono text-[#5A5E69]">VEHICLE: TATA 407 (KA-07-E-4819)</p>
             </div>
